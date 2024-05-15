@@ -10,7 +10,7 @@
           <slot name="description"/>
         </p>
       </div>
-      <a :href="props.link">
+      <a :href="props.link" target="_blank">
         <div class="p-2 rounded-xl bg-accent w-fit font-bold cursor-pointer hover:scale-105">
           <p>Github Repo</p>
         </div>

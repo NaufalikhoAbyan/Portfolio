@@ -8,7 +8,7 @@
 
     <!-- Cards -->
     <div class="gap-10 w-full xl:w-4/5 flex lg:grid flex-col lg:grid-cols-3">
-      <ProjectCard link="https://github.com/NaufalikhoAbyan/render-test">
+      <ProjectCard link="https://github.com/NaufalikhoAbyan/Portfolio">
         <template v-slot:image><img src="@/assets/images/Portfolio_Project.png" alt="Projects_Picture" class="aspect-square rounded-t-xl w-full sm:w-1/4 lg:w-full object-contain lg:object-cover hover:object-contain" ></template>
         <template v-slot:title>Portfolio Website</template>
         <template v-slot:description>A fully responsive personal landing page made with VueJs javascript framework. Made for share my works and showcase my skills when applying for jobs.</template>
