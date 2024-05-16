@@ -10,7 +10,7 @@
         </div>
         <div class="text-secondary-text font-bold w-full lg:w-[60%] text-4xl sm:text-6xl">A Full-Stack Web Developer</div>
         <div class="rounded-xl w-fit p-4 bg-accent hover:scale-105 text-base lg:text-4xl">
-          <a href="@/assets/Naufalikho%20Abyan%20-%20Curriculum%20Vitae.pdf" download="CV-Naufalikho_Abyan.pdf">
+          <a href="Naufalikho%20Abyan%20-%20Curriculum%20Vitae.pdf" download="CV-Naufalikho_Abyan.pdf">
             <div class="flex gap-2 font-bold items-center cursor-pointer">
               Download CV<DownloadIcon class="text-white w-4 sm:w-9"/>
             </div>
