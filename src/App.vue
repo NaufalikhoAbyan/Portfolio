@@ -46,7 +46,7 @@
 
   <AboutView id="about"/>
 
-  <div class="flex flex-col gap-24">
+  <div class="flex flex-col gap-24 pb-24">
     <SkillsView id="skills"/>
 
     <ProjectsView id="projects"/>
