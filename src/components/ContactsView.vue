@@ -8,8 +8,8 @@
 
     <div class="flex flex-col gap-5">
       <div class="bg-secondary rounded-xl items-center gap-2 lg:gap-10 p-8 flex-col flex lg:grid lg:grid-cols-10">
-        <div class="h-16 md:h-32 lg:col-span-3">
-          <WhatsappIcon/>
+        <div class="h-16 md:h-32 lg:col-span-3 flex justify-center">
+          <WhatsappIcon class="w-32"/>
         </div>
         <div class="flex flex-col justify-around h-full lg:col-span-7">
           <p class="font-semibold text-4xl text-secondary-text hidden lg:block">
@@ -22,8 +22,8 @@
       </div>
 
       <div class="bg-secondary rounded-xl items-center gap-2 lg:gap-10 p-8 flex-col flex lg:grid lg:grid-cols-10">
-        <div class="h-16 md:h-32 lg:col-span-3">
-          <EmailIcon/>
+        <div class="h-16 md:h-32 lg:col-span-3 flex justify-center">
+          <EmailIcon class="w-32"/>
         </div>
         <div class="flex flex-col justify-around h-full lg:col-span-7">
           <p class="font-semibold text-4xl text-secondary-text hidden lg:block">
