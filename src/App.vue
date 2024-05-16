@@ -24,10 +24,10 @@
   <!-- Navbar Mobile-->
   <div class="bg-primary fixed left-0 right-0 z-50 flex-col py-4 px-12 flex md:hidden">
     <div class="flex justify-between items-center w-full">
-      <BarsIcon class="w-12 h-12" @click="isDroppedDown = !isDroppedDown"/>
+      <BarsIcon class="w-8 h-8" @click="isDroppedDown = !isDroppedDown"/>
       <a href="https://github.com/NaufalikhoAbyan" target="_blank">
         <div class="bg-white text-primary font-bold text-xl flex items-center gap-2 rounded-xl w-fit p-2 my-4 cursor-pointer hover:scale-105">
-          GitHub <GithubIcon class="h-12 text-primary"/>
+          GitHub <GithubIcon class="h-8 text-primary"/>
         </div>
       </a>
     </div>
@@ -106,10 +106,3 @@ function ScrollToAbout(){
   about.scrollIntoView()
 }
 </script>
-
-<style>
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 128px;
-}
-</style>
