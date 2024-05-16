@@ -46,11 +46,13 @@
 
   <AboutView id="about"/>
 
-  <SkillsView id="skills"/>
+  <div class="flex flex-col gap-24">
+    <SkillsView id="skills"/>
 
-  <ProjectsView id="projects"/>
+    <ProjectsView id="projects"/>
 
-  <ContactsView id="contacts"/>
+    <ContactsView id="contacts"/>
+  </div>
 
 </div>
 <div class="bg-secondary text-white flex justify-between py-8 px-12 xl:px-48 flex-col md:flex-row gap-10 md:gap-0">
@@ -101,10 +103,13 @@ onMounted(() =>{
 })
 
 function ScrollToAbout(){
-  about.scrollIntoView({ behavior: "smooth" })
+  about.scrollIntoView()
 }
 </script>
 
 <style>
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 128px;
+}
 </style>

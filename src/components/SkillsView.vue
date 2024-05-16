@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center items-center flex-col gap-10 pt-48 md:pt-0 h-screen">
+  <div class="flex flex-col justify-center items-center gap-10">
     <!-- Header -->
     <div class="w-fit">
       <p class="text-5xl sm:text-7xl font-bold px-1">SKILLS</p>

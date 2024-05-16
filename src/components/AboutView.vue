@@ -1,5 +1,5 @@
 <template>
-  <div class="flex h-screen items-center">
+  <div class="flex items-center h-[calc(100vh-128px)]">
     <div class="h-fit w-full flex justify-between items-center lg:gap-10 xl:gap-20">
       <img src="../assets/images/About_Image.jpeg" alt="About_Picture" class="bg-white rounded-xl w-[540px] aspect-square object-cover hidden lg:block"/>
       <div class="flex flex-col gap-8 w-fit">
